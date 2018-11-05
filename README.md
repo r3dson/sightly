@@ -1,2 +1,0 @@
-# sightly
-Created with CodeSandbox

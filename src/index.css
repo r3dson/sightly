@@ -1,0 +1,46 @@
+body {
+  background-color: #dcdbd9;
+  color: #2c2c2c;
+  font: normal 100% Cambria, Georgia, serif;
+}
+
+h1 {
+  font-size: 1.5em; /*24px / 16 = 1.5em*/
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 a {
+  color: #747474;
+  font: bold 0.458333333333333em Calibri, Optima, Arial, sans-serif; /*11px / 24px*/
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#page {
+  margin: 36px auto;
+  width: 90%; /*960px*/
+  background: #eaeaea;
+  height: 100%;
+}
+
+.blog {
+  margin: 0 auto 53px;
+  width: 93.75%; /*900 / 960 = 0.9375 => 93.75%*/
+  background: #e8cace;
+}
+
+.blog .main {
+  float: left;
+  width: 62.8888889%; /*566 / 900 = .628888889 => 62.8888889%*/
+  height: 100%;
+  background: #e8e8ca;
+}
+
+.blog .other {
+  background: #cacae8;
+  float: right;
+  height: 100%;
+  width: 37.1111111%; /* 334 / 900 = 0.371111111 => 037.1111111%*/
+}
